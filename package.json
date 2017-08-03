@@ -6,6 +6,9 @@
     "type": "git",
     "url": "https://github.com/OperationCode/job-portal.git"
   },
+  "scripts": {
+    "start": "au run"
+  },
   "license": "MIT",
   "dependencies": {
     "aurelia-animator-css": "^1.0.2",
