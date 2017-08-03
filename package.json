@@ -7,7 +7,8 @@
     "url": "https://github.com/OperationCode/job-portal.git"
   },
   "scripts": {
-    "start": "au run"
+    "start": "http-server -a '0.0.0.0' -p '9000' -d '/scripts'",
+    "dev": "au run"
   },
   "license": "MIT",
   "dependencies": {
